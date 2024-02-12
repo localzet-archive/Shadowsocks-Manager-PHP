@@ -1,0 +1,31 @@
+{
+  "name": "localzet/ssmgr",
+  "description": "",
+  "type": "library",
+  "keywords": [
+  ],
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Ivan Zorin",
+      "email": "creator@localzet.com",
+      "homepage": "https://github.com/localzet"
+    }
+  ],
+  "support": {
+    "email": "support@localzet.com",
+    "issues": "https://github.com/localzet/SS-Manager/issues",
+    "source": "https://github.com/localzet/SS-Manager"
+  },
+  "require": {
+    "php": "^8.2"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "localzet\\ShadowSocks\\": "src"
+    }
+  }
+}
