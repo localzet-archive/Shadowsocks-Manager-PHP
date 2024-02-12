@@ -2,28 +2,15 @@
 
 namespace localzet\ShadowSocks;
 
-/**
- * @experimental
- */
-class Server extends AbstractSS
+class Server
 {
-    use Service\ShadowSocks, Service\Server;
-
     public function __construct(
-        string $address,
-        string $password,
-        string $run = 'libev',
-        ?string $plugin = null,
-        ?string $plugin_opts = null
+        protected string $shadowsocks,
+        protected string $manager,
+        protected string $password,
+        protected ?string $run = null,
+        protected ?string $plugin = null,
+        protected ?string $plugin_opts = null,
     )
-    {
-        parent::__construct(
-            type: self::TYPE_SERVER,
-            shadowsocks: $address,
-            password: $password,
-            run: $run,
-            plugin: $plugin,
-            plugin_opts: $plugin_opts,
-        );
-    }
+    {}
 }
