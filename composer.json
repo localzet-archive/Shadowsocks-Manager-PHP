@@ -1,8 +1,17 @@
 {
   "name": "localzet/ssmgr",
-  "description": "",
+  "description": "Localzet SSMgr is a ShadowSocks manager library, ported from the official ssmgr in JavaScript. Developed by Localzet, it uses modern technologies and standards for managing and configuring ShadowSocks.",
   "type": "library",
   "keywords": [
+    "ShadowSocks",
+    "manager",
+    "ssmgr",
+    "PHP",
+    "library",
+    "localzet",
+    "AGPL",
+    "port",
+    "JavaScript"
   ],
   "license": "AGPL-3.0-or-later",
   "authors": [
