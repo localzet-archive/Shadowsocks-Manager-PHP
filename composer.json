@@ -30,8 +30,7 @@
   "require": {
     "php": "^8.2"
   },
-  "suggest": {
-  },
+  "suggest": {},
   "autoload": {
     "psr-4": {
       "localzet\\ShadowSocks\\": "src"
